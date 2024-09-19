@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+.top{
+    width: 100%;
+    min-height: 56vh;
+    background-image: url(https://wallpapercave.com/wp/wp9215469.jpg);
+    background-size: cover;
+    background-position: center;
+    border-color: black;
+border-style: solid;
+    
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 90%;
+    color: white;
+    
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+    padding: 10px 60px 20px 20px;
+    
+}
+
+
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.rtext p{
+    font-size:medium;
+}
+.bottom{
+display: flex;
+width: 100%;
+min-height: 40vh;
+}
+.b1{
+    width: 30%;
+height: 43.2vh;
+background-image: url(https://wallpapers.com/images/hd/aesthetic-anime-scene-desktop-4k-0pnb65qudf5plsju.jpg);
+background-size: cover;
+background-position: center;
+border-color: black;
+border-style: solid;
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.b1 p{
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+.b2{
+    width: 30%;
+    min-height: inherit;
+display: flex;
+flex-direction: column;
+}
+.b2 .up{
+    width: 100%;
+    min-height: 43.2vh;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLBYRYkMhqoihtwzZtmZf1mcFHFT7hUyFEzEQS2mknZnb_XkKVFxKxkKA-5rcmiRDmcaaHRSBa3X0vPXteBAZ604UptQl0H1dohy6kEIgdJl1ngXwRgIPYFm4Hm4_D_vfX9qu5TYytBm-_yPIt3IC74tSP3NoFGwgkufdW6PJsDsE53O-xoSx0jHQJ3A/s1600-rw/WHITE-FERRARI-HEROSCREEN-5192023.png);
+    background-size: cover;
+    background-position: center;
+    border-color: black;
+    border-style: solid;
+}
+.b2 .up h1{
+    text-align:center;
+    padding: 10px 40px 70px 20px;
+    color: white;
+}
+.b2 .up p{
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+
+.b3{
+    width: 40%;
+    height: fit-content;
+background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Minimalist-Wallpaper-4K-Desktop-HD.jpg);
+background-size: cover;
+background-position: center;
+border-color: black;
+border-style:solid;
+}
+
+.b3 .overlay p{
+    margin-top: 40%;
+    text-align:center;
+    align-items: center;
+}
+.b3 .overlay  .icons{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+@media(max-width:700px){
+    .rtext{
+        flex-direction: column;
+    }
+    .b3 .overlay{
+        width: 100%;
+        margin-left: initial;
+    }
+}
+@media(max-width:500px){
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text h1{
+        font-size: 5vh;
+    }
+    .text .image{
+        height: 200px;
+        width: 140px;
+        margin-top: 20px;
+    }
+    .rtext{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rtext p{
+        margin: 10px;
+    }
+   
+    .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .b1{
+        width: 100%;
+        min-height: 30vh;
+    }
+    .b2{
+        width: 100%;
+    }
+    .b2 up{
+        min-height: 40vh;
+    }
+    .b3{
+        width: 100%;
+        min-height: 30vh;
+        background-position: left;
+    }
+}
